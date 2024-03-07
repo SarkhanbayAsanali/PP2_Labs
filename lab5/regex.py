@@ -95,7 +95,7 @@ import re
 
 def capital_words_spaces(str1):
   return re.sub(r"(\w)([A-Z])", r"\1 \2", str1)
-print(capital_words_spaces("DamirChert"))
+print(capital_words_spaces("BmwFan"))
 
 #Task 10:
 def camel_to_snake(text):
